@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0rem;
+    text-align: center;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: right;
+    color: #74b5d3;
+    text-align: top;
+    padding: 10rem 15rem;
+}
+
+#hero h2 {
+    font-size: 5rem;
+    margin: top;
+}
+
+#hero p {
+    color: #74b5d3;
+    padding: bottom;
+    font-size: 4rem;
+    gap: calc(20px + 10%);
+}
+
+#destinations {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#destinations h2 {
+    font-size: 5rem;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+#about, #contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#about p, #contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+}
