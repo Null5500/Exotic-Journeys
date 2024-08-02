@@ -95,7 +95,7 @@ footer {
     padding: 3rem;
 }
 
-#about_us_page {
+#about_us_top {
     background-image: url('bluesky.jpg');
     background-size: cover;
     color: #000000;
@@ -129,4 +129,54 @@ footer {
 
 .about3 ul {
     list-style: none;
-  }
+}
+
+#about_us_team {
+    background-color:#8be1fc;
+    text-align: center;
+    padding: 2rem;
+    margin: center;
+}
+
+#about_us_team ul {
+    text-align: center;
+    width: 98%;
+    list-style: none;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.team_member1 {
+    width: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 63px 80px;
+    font-size:1rem;
+}
+.team_member2 {
+    width: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 49px 80px;
+    font-size:1rem;
+}
+.team_member3 {
+    width: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 40px 80px;
+    font-size:1rem;
+}
+.team_member4 {
+    width: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 40px 80px;
+    font-size:1rem;
+}
