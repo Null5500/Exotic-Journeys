@@ -7,15 +7,15 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 1rem;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 nav ul {
@@ -57,23 +57,26 @@ nav ul li a {
 }
 
 #destinations {
-    background-color: #74b5d3;
+    background-color:#74b5d3;
+    color: #000000;
     padding: 2rem 1rem;
     text-align: center;
 }
 
 #destinations h2 {
     font-size: 5rem;
+    margin: center;
 }
 
 .card {
     display: inline-block;
     width: 20%;
-    margin: 1rem;
-    padding: 1rem;
+    margin: center;
+    padding: center;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .card img {
@@ -85,46 +88,40 @@ nav ul li a {
     margin: 1rem 0 0.5rem;
 }
 
-#about, #contact {
-    background-color: #74b5d3;
-    padding: 2rem 1rem;
-    text-align: center;
-}
-
-#about p, #contact form {
-    max-width: 600px;
-    margin: auto;
-}
-
-#contact form label {
-    display: block;
-    margin: 0.5rem 0 0.2rem;
-}
-
-#contact form input, #contact form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-#contact form button {
-    padding: 0.5rem 1rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#contact form button:hover {
-    background-color: #555;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 3rem;
+}
+
+#about_us_page {
+    background-image: url('bluesky.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: left;
+    padding: 1rem;
+}
+
+.about {
+    color: #000000;
+    text-align: center;
+    font-size:2rem;
+}
+
+.about2 {
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    font-size:2rem;
+}
+
+.about3 {
+    background-color: #74b5d3;
+    color: #000000;
+    text-align: center;
+    font-size:1rem;
+    padding: 1rem;
+    width: cover;
+    border-radius: cover;
 }
