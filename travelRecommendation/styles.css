@@ -99,7 +99,7 @@ footer {
     background-image: url('bluesky.jpg');
     background-size: cover;
     color: #000000;
-    text-align: left;
+    text-align: center;
     padding: 1rem;
 }
 
@@ -117,11 +117,16 @@ footer {
 }
 
 .about3 {
-    background-color: #74b5d3;
-    color: #000000;
+    display: inline-block;
     text-align: center;
-    font-size:1rem;
-    padding: 1rem;
-    width: cover;
-    border-radius: cover;
+    width: 100%;
+    margin: center;
+    padding: center;
+    border: 6px solid #15c8ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.about3 ul {
+    list-style: none;
+  }
